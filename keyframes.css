@@ -1,0 +1,18 @@
+@keyframes jiggle {
+    0% {
+        rotate: 0deg;
+    }
+    33% {
+        rotate: 1deg;
+    }
+    66% {
+        rotate: -1deg;
+    }
+}
+
+@keyframes revert {
+    100% {
+        scale: 0;
+        rotate: 0deg;
+    }
+}
